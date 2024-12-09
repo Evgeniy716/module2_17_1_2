@@ -16,6 +16,7 @@ class CreateTask(BaseModel):
     title: str
     content: str
     priority: int
+    completed: bool
 
 class UpdateTask(CreateTask):
     pass
